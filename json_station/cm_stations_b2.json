@@ -1,0 +1,603 @@
+ [
+    {
+      "station_id": "2073",
+      "route_id": "14",
+      "station_order": "1",
+      "station_name": "ขนส่งอาเขต",
+      "station_name_en": "Arcade Transport",
+      "station_name_cn": "街机运输",
+      "lat": "18.8013685045",
+      "lng": "99.0174740553"
+    },
+    {
+      "station_id": "2074",
+      "route_id": "14",
+      "station_order": "2",
+      "station_name": "ศาลแพ่ง",
+      "station_name_en": "Civil Court",
+      "station_name_cn": "民事审判厅",
+      "lat": "18.8029630458",
+      "lng": "99.0170609951"
+    },
+    {
+      "station_id": "2075",
+      "route_id": "14",
+      "station_order": "3",
+      "station_name": "ร.ร.ดาราฯ",
+      "station_name_en": "Dara Academy",
+      "station_name_cn": "达拉学院",
+      "lat": "18.7998501215",
+      "lng": "99.0125977993"
+    },
+    {
+      "station_id": "2076",
+      "route_id": "14",
+      "station_order": "4",
+      "station_name": "รพ.แมคคอร์มิค",
+      "station_name_en": "McCormick Hospital",
+      "station_name_cn": "麦考密克医院",
+      "lat": "18.7982771334",
+      "lng": "99.0097801387"
+    },
+    {
+      "station_id": "2077",
+      "route_id": "14",
+      "station_order": "5",
+      "station_name": "ร.ร.ปรินส์ฯ (ประตู 3)",
+      "station_name_en": "The Prince Royal''s College Gate 3",
+      "station_name_cn": "王子皇家学院的3号门",
+      "lat": "18.7965720941",
+      "lng": "99.0067210793"
+    },
+    {
+      "station_id": "2078",
+      "route_id": "14",
+      "station_order": "6",
+      "station_name": "ร.ร.ปรินส์ฯ (ประตู 1)",
+      "station_name_en": "The Prince Royal''s College Gate 1",
+      "station_name_cn": "王子皇家学院的1号门",
+      "lat": "18.7952555330",
+      "lng": "99.0039530396"
+    },
+    {
+      "station_id": "2079",
+      "route_id": "14",
+      "station_order": "7",
+      "station_name": "สะพานนครพิงค์ (ทางขึ้น)",
+      "station_name_en": "Bridge Nakornping (way up)",
+      "station_name_cn": "桥Nakornping（一路）",
+      "lat": "18.7939364224",
+      "lng": "99.0009503067"
+    },
+    {
+      "station_id": "2080",
+      "route_id": "14",
+      "station_order": "8",
+      "station_name": "ตลาดนครพิงค์",
+      "station_name_en": "Market Nakornping",
+      "station_name_cn": "市场Nakornping",
+      "lat": "18.7929220079",
+      "lng": "98.9997553825"
+    },
+    {
+      "station_id": "2081",
+      "route_id": "14",
+      "station_order": "9",
+      "station_name": "กาดหลวง",
+      "station_name_en": "Kad Luang",
+      "station_name_cn": "喀琅",
+      "lat": "18.7911610511",
+      "lng": "99.0013284981"
+    },
+    {
+      "station_id": "2082",
+      "route_id": "14",
+      "station_order": "10",
+      "station_name": "ไปรษณีย์แม่ปิง",
+      "station_name_en": "Maeping Post Office",
+      "station_name_cn": "Maeping邮局",
+      "lat": "18.7902913576",
+      "lng": "99.0022002161"
+    },
+    {
+      "station_id": "2083",
+      "route_id": "14",
+      "station_order": "11",
+      "station_name": "พุทธสถาน",
+      "station_name_en": "Buddhist place",
+      "station_name_cn": "佛教的地方",
+      "lat": "18.7876670144",
+      "lng": "99.0019387007"
+    },
+    {
+      "station_id": "2084",
+      "route_id": "14",
+      "station_order": "12",
+      "station_name": "ถนนท่าแพ",
+      "station_name_en": "Thaphae road",
+      "station_name_cn": "Thaphae路",
+      "lat": "18.7881748731",
+      "lng": "98.9997299016"
+    },
+    {
+      "station_id": "2085",
+      "route_id": "14",
+      "station_order": "13",
+      "station_name": "วัดบุพพาราม",
+      "station_name_en": "Wat Bupparam",
+      "station_name_cn": "笏Bupparam",
+      "lat": "18.7882866018",
+      "lng": "98.9983364940"
+    },
+    {
+      "station_id": "2086",
+      "route_id": "14",
+      "station_order": "14",
+      "station_name": "ข่วงประตูท่าแพ",
+      "station_name_en": "Kuang Thaphae Gate",
+      "station_name_cn": "邝Thaphae门",
+      "lat": "18.7873216696",
+      "lng": "98.9936895669"
+    },
+    {
+      "station_id": "2087",
+      "route_id": "14",
+      "station_order": "15",
+      "station_name": "ร.ร.พาณิชยการเชียงใหม่",
+      "station_name_en": "Chiangmai Commercial Technological College",
+      "station_name_cn": "清迈商业技术学院",
+      "lat": "18.7844700089",
+      "lng": "98.9933153987"
+    },
+    {
+      "station_id": "2088",
+      "route_id": "14",
+      "station_order": "16",
+      "station_name": "ประตูท่าแพ",
+      "station_name_en": "Thaphae Gate",
+      "station_name_cn": "Thaphae门",
+      "lat": "18.7883259607",
+      "lng": "98.9931584895"
+    },
+    {
+      "station_id": "2089",
+      "route_id": "14",
+      "station_order": "17",
+      "station_name": "ร.ร.ยุพราชฯ",
+      "station_name_en": "Yupparaj Wittayalai School",
+      "station_name_cn": "Yupparaj Wittayalai学校",
+      "lat": "18.7907141435",
+      "lng": "98.9884445071"
+    },
+    {
+      "station_id": "2090",
+      "route_id": "14",
+      "station_order": "18",
+      "station_name": "วิทยาลัยอาชีวศึกษา",
+      "station_name_en": "Chiang Mai Vocational College",
+      "station_name_cn": "清迈职业学院",
+      "lat": "18.7919240923",
+      "lng": "98.9877672493"
+    },
+    {
+      "station_id": "2091",
+      "route_id": "14",
+      "station_order": "19",
+      "station_name": "วิทยาลัยเทคนิคฯ",
+      "station_name_en": "Chiangmai Technical College",
+      "station_name_cn": "清迈技术学院",
+      "lat": "18.7931073707",
+      "lng": "98.9836969972"
+    },
+    {
+      "station_id": "2092",
+      "route_id": "14",
+      "station_order": "20",
+      "station_name": "ร.ร.หอพระ",
+      "station_name_en": "Hopra School",
+      "station_name_cn": "Hopra学校",
+      "lat": "18.7920447058",
+      "lng": "98.9820823073"
+    },
+    {
+      "station_id": "2093",
+      "route_id": "14",
+      "station_order": "21",
+      "station_name": "วัดพระสิงห์",
+      "station_name_en": "Wat Phra Singh",
+      "station_name_cn": "佛寺辛格",
+      "lat": "18.7880809193",
+      "lng": "98.9825060964"
+    },
+    {
+      "station_id": "2094",
+      "route_id": "14",
+      "station_order": "22",
+      "station_name": "ร.ร.สอนคนตาบอด",
+      "station_name_en": "School for the Blind",
+      "station_name_cn": "盲校",
+      "lat": "18.7871616935",
+      "lng": "98.9782333374"
+    },
+    {
+      "station_id": "2095",
+      "route_id": "14",
+      "station_order": "23",
+      "station_name": "ตรงข้าม ร.ร.วัฒโนฯ",
+      "station_name_en": "Wattanothaipayap School Chiangmai opposite",
+      "station_name_cn": "Wattanothaipayap学校清迈相反",
+      "lat": "18.7833806262",
+      "lng": "98.9780348539"
+    },
+    {
+      "station_id": "2096",
+      "route_id": "14",
+      "station_order": "24",
+      "station_name": "สวนบวกหาด",
+      "station_name_en": "Buak Hard Public Park",
+      "station_name_cn": "Buak硬盘公共公园",
+      "lat": "18.7817300330",
+      "lng": "98.9794752002"
+    },
+    {
+      "station_id": "2097",
+      "route_id": "14",
+      "station_order": "25",
+      "station_name": "ศูนย์ LG ประตูเชียงใหม่",
+      "station_name_en": "LG center Chiang Mai Gate",
+      "station_name_cn": "LG中心清迈门",
+      "lat": "18.7815294213",
+      "lng": "98.9859567583"
+    },
+    {
+      "station_id": "2098",
+      "route_id": "14",
+      "station_order": "26",
+      "station_name": "ตลาดประตูเชียงใหม่",
+      "station_name_en": "Chiang Mai Gate Market",
+      "station_name_cn": "清迈门市场",
+      "lat": "18.7814735547",
+      "lng": "98.9886403084"
+    },
+    {
+      "station_id": "2099",
+      "route_id": "14",
+      "station_order": "27",
+      "station_name": "ถนนวัวลาย",
+      "station_name_en": "Wualai road",
+      "station_name_cn": "Wualai路",
+      "lat": "18.7808234695",
+      "lng": "98.9876210690"
+    },
+    {
+      "station_id": "2100",
+      "route_id": "14",
+      "station_order": "28",
+      "station_name": "วัดหมื่นสาร",
+      "station_name_en": "Wat Muen Sar",
+      "station_name_cn": "笏慕恩萨",
+      "lat": "18.7791982454",
+      "lng": "98.9852178097"
+    },
+    {
+      "station_id": "2101",
+      "route_id": "14",
+      "station_order": "29",
+      "station_name": "หมู่บ้านทิพย์เนตร",
+      "station_name_en": "Tippanate Village",
+      "station_name_cn": "Tippanate村",
+      "lat": "18.7757103093",
+      "lng": "98.9817751944"
+    },
+    {
+      "station_id": "2102",
+      "route_id": "14",
+      "station_order": "30",
+      "station_name": "ศูนย์วัฒนธรรมฯ",
+      "station_name_en": "Cultural center",
+      "station_name_cn": "文化中心",
+      "lat": "18.7721791290",
+      "lng": "98.9796629548"
+    },
+    {
+      "station_id": "2103",
+      "route_id": "14",
+      "station_order": "31",
+      "station_name": "เซ็นทรัลแอร์พอร์ต",
+      "station_name_en": "Central Airport",
+      "station_name_cn": "中央机场",
+      "lat": "18.7697437016",
+      "lng": "98.9757013321"
+    },
+    {
+      "station_id": "2104",
+      "route_id": "14",
+      "station_order": "32",
+      "station_name": "ร้านสวนผัก",
+      "station_name_en": "Vegetable garden",
+      "station_name_cn": "菜园",
+      "lat": "18.7705728683",
+      "lng": "98.9743991196"
+    },
+    {
+      "station_id": "2105",
+      "route_id": "14",
+      "station_order": "33",
+      "station_name": "สนามบินเชียงใหม่",
+      "station_name_en": "Chiang Mai Airport",
+      "station_name_cn": "清迈机场",
+      "lat": "18.7707849210",
+      "lng": "98.9684499800"
+    },
+    {
+      "station_id": "2106",
+      "route_id": "14",
+      "station_order": "34",
+      "station_name": "กองบิน 41",
+      "station_name_en": "Battalion Yothin Air Wing 41",
+      "station_name_cn": "大队Yothin航空联队41",
+      "lat": "18.7719734269",
+      "lng": "98.9706212282"
+    },
+    {
+      "station_id": "2107",
+      "route_id": "14",
+      "station_order": "35",
+      "station_name": "สนง.ต.ม.",
+      "station_name_en": "Immigration Bureau",
+      "station_name_cn": "入国管理局",
+      "lat": "18.7716318593",
+      "lng": "98.9725416899"
+    },
+    {
+      "station_id": "2108",
+      "route_id": "14",
+      "station_order": "36",
+      "station_name": "ศูนย์วัฒนธรรมฯ",
+      "station_name_en": "Cultural center",
+      "station_name_cn": "文化中心",
+      "lat": "18.7724572074",
+      "lng": "98.9797970653"
+    },
+    {
+      "station_id": "2109",
+      "route_id": "14",
+      "station_order": "37",
+      "station_name": "ถนนวัวลาย",
+      "station_name_en": "Wualai road",
+      "station_name_cn": "Wualai路",
+      "lat": "18.7771800255",
+      "lng": "98.9832034707"
+    },
+    {
+      "station_id": "2110",
+      "route_id": "14",
+      "station_order": "38",
+      "station_name": "วัดศรีสุพรรณ",
+      "station_name_en": "Wat Sri Suphan",
+      "station_name_cn": "笏斯里兰卡素攀",
+      "lat": "18.7790446102",
+      "lng": "98.9850206673"
+    },
+    {
+      "station_id": "2111",
+      "route_id": "14",
+      "station_order": "39",
+      "station_name": "เชียงใหม่สยามทีวี",
+      "station_name_en": "Chiang Mai Siam T.V.",
+      "station_name_cn": "清迈暹罗T.V.",
+      "lat": "18.7811764458",
+      "lng": "98.9836138487"
+    },
+    {
+      "station_id": "2112",
+      "route_id": "14",
+      "station_order": "40",
+      "station_name": "รพ.สวนปรุง",
+      "station_name_en": "Suan Prung Psychiatric Hospital",
+      "station_name_cn": "苏安Prung精神病医院",
+      "lat": "18.7813161124",
+      "lng": "98.9790031314"
+    },
+    {
+      "station_id": "2113",
+      "route_id": "14",
+      "station_order": "41",
+      "station_name": "ร.ร.วัฒโนฯ",
+      "station_name_en": "Wattanothaipayap School Chiangmai",
+      "station_name_cn": "Wattanothaipayap学校清迈",
+      "lat": "18.7851886421",
+      "lng": "98.9776405692"
+    },
+    {
+      "station_id": "2114",
+      "route_id": "14",
+      "station_order": "42",
+      "station_name": "รพ.มหาราช",
+      "station_name_en": "Maharaj Nakorn Chiang Mai Hospitle",
+      "station_name_cn": "马哈拉杰那空清迈Hospitle",
+      "lat": "18.7902723132",
+      "lng": "98.9778873324"
+    },
+    {
+      "station_id": "2115",
+      "route_id": "14",
+      "station_order": "43",
+      "station_name": "ประตูสวนดอก",
+      "station_name_en": "Saun Dok Gate",
+      "station_name_cn": "桑拿和健身的Dok门",
+      "lat": "18.7903941975",
+      "lng": "98.9783594012"
+    },
+    {
+      "station_id": "2116",
+      "route_id": "14",
+      "station_order": "44",
+      "station_name": "ถนนอารักษ์",
+      "station_name_en": "Arak Road",
+      "station_name_cn": "阿拉克路",
+      "lat": "18.7896209922",
+      "lng": "98.9801363647"
+    },
+    {
+      "station_id": "2117",
+      "route_id": "14",
+      "station_order": "45",
+      "station_name": "วัดพระสิงห์",
+      "station_name_en": "Wat Phra Singh",
+      "station_name_cn": "佛寺辛格",
+      "lat": "18.7894952984",
+      "lng": "98.9822834730"
+    },
+    {
+      "station_id": "2118",
+      "route_id": "14",
+      "station_order": "46",
+      "station_name": "ร.ร.หอพระ",
+      "station_name_en": "Hopra School",
+      "station_name_cn": "Hopra学校",
+      "lat": "18.7918212533",
+      "lng": "98.9820769429"
+    },
+    {
+      "station_id": "2119",
+      "route_id": "14",
+      "station_order": "47",
+      "station_name": "วิทยาลัยเทคนิคฯ",
+      "station_name_en": "Chiangmai Technical College",
+      "station_name_cn": "清迈技术学院",
+      "lat": "18.7931187972",
+      "lng": "98.9839249849"
+    },
+    {
+      "station_id": "2120",
+      "route_id": "14",
+      "station_order": "48",
+      "station_name": "วิทยาลัยอาชีวศึกษา",
+      "station_name_en": "Chiang Mai Vocational College",
+      "station_name_cn": "清迈职业学院",
+      "lat": "18.7922021381",
+      "lng": "98.9877873659"
+    },
+    {
+      "station_id": "2121",
+      "route_id": "14",
+      "station_order": "49",
+      "station_name": "ร.ร.ยุพราชฯ",
+      "station_name_en": "Yupparaj Wittayalai School",
+      "station_name_cn": "Yupparaj Wittayalai学校",
+      "lat": "18.7907750855",
+      "lng": "98.9890748262"
+    },
+    {
+      "station_id": "2122",
+      "route_id": "14",
+      "station_order": "50",
+      "station_name": "ถนนราชวิถี",
+      "station_name_en": "Rajvithi Road",
+      "station_name_cn": "Rajvithi路",
+      "lat": "18.7904894196",
+      "lng": "98.9919018745"
+    },
+    {
+      "station_id": "2123",
+      "route_id": "14",
+      "station_order": "51",
+      "station_name": "วัดไชยศรีภูมิ",
+      "station_name_en": "Wat Chaisri poom",
+      "station_name_cn": "笏Chaisri POOM",
+      "lat": "18.7912131056",
+      "lng": "98.9937445521"
+    },
+    {
+      "station_id": "2124",
+      "route_id": "14",
+      "station_order": "52",
+      "station_name": "ถนนช้างม่อย",
+      "station_name_en": "Chang Moi Road",
+      "station_name_cn": "昌莫伊路",
+      "lat": "18.7898825366",
+      "lng": "98.9959868789"
+    },
+    {
+      "station_id": "2125",
+      "route_id": "14",
+      "station_order": "53",
+      "station_name": "สะพานแม่ข่า",
+      "station_name_en": "Bridge Mae Kha",
+      "station_name_cn": "桥美KHA",
+      "lat": "18.7903192894",
+      "lng": "98.9980562031"
+    },
+    {
+      "station_id": "2126",
+      "route_id": "14",
+      "station_order": "54",
+      "station_name": "สะพานนครพิงค์ (ทางขึ้น)",
+      "station_name_en": "Bridge Nakornping (way up)",
+      "station_name_cn": "桥Nakornping（一路）",
+      "lat": "18.7930781698",
+      "lng": "98.9993181825"
+    },
+    {
+      "station_id": "2127",
+      "route_id": "14",
+      "station_order": "55",
+      "station_name": "ร.ร.ปรินส์ฯ (ประตู 1)",
+      "station_name_en": "The Prince Royal''s College Gate 1",
+      "station_name_cn": "王子皇家学院的1号门",
+      "lat": "18.7953367869",
+      "lng": "99.0040241182"
+    },
+    {
+      "station_id": "2128",
+      "route_id": "14",
+      "station_order": "56",
+      "station_name": "ร.ร.ปรินส์ฯ (ประตู 3)",
+      "station_name_en": "The Prince Royal''s College Gate 3",
+      "station_name_cn": "王子皇家学院的3号门",
+      "lat": "18.7966203382",
+      "lng": "99.0067023039"
+    },
+    {
+      "station_id": "2129",
+      "route_id": "14",
+      "station_order": "57",
+      "station_name": "คณะพยาบาล ม.พายัพ",
+      "station_name_en": "McCormick Faculty of Nursing Payap University",
+      "station_name_cn": "护理Payap大学麦考密克教授",
+      "lat": "18.7983317248",
+      "lng": "99.0097774565"
+    },
+    {
+      "station_id": "2130",
+      "route_id": "14",
+      "station_order": "58",
+      "station_name": "ร.ร.ดาราฯ",
+      "station_name_en": "Dara Academy",
+      "station_name_cn": "达拉学院",
+      "lat": "18.8000177029",
+      "lng": "99.0127828717"
+    },
+    {
+      "station_id": "2131",
+      "route_id": "14",
+      "station_order": "59",
+      "station_name": "องค์การอนุรักษ์ป่าไม้",
+      "station_name_en": "Forest Conservation Organizations",
+      "station_name_cn": "森林保护组织",
+      "lat": "18.8016985860",
+      "lng": "99.0151995420"
+    },
+    {
+      "station_id": "2132",
+      "route_id": "14",
+      "station_order": "60",
+      "station_name": "ขนส่งอาเขต",
+      "station_name_en": "Arcade Transport",
+      "station_name_cn": "街机运输",
+      "lat": "18.8013786609",
+      "lng": "99.0174566209"
+    }
+  ]
+
