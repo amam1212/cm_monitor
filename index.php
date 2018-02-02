@@ -1,6 +1,3 @@
-<?php
-header('Access-Control-Allow-Origin: http://183.90.168.61/');
-?>
 <html lang="en" class="gr__183_90_168_61"><head><style type="text/css">.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
     </style><link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
     </style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
@@ -161,7 +158,7 @@ header('Access-Control-Allow-Origin: http://183.90.168.61/');
             center: location
         });
 
-        $.getJSON("http://183.90.168.61/cmcar/", function(jsonBus1) {
+        $.getJSON("CM_CAR/API", function(jsonBus1) {
             $.each(jsonBus1, function(i, carB1) {
                 var markBusB1 = new google.maps.Marker({
                     position: new google.maps.LatLng(carB1.LaGoogle, carB1.LongGoogle),
@@ -269,7 +266,7 @@ header('Access-Control-Allow-Origin: http://183.90.168.61/');
 
     function getCarlocation() {
 
-        $.getJSON("http://183.90.168.61/cmcar/", function(jsonBus1) {
+        $.getJSON("CM_CAR/API", function(jsonBus1) {
             clearMarkCar();
             carMark = [];
             $.each(jsonBus1, function(i, carB1) {
