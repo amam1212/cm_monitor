@@ -1,3 +1,9 @@
+<?php
+session_start();
+if(!isset($_SESSION["Admin"])) {
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,26 +27,23 @@
     <div class="card card-login mx-auto mt-5">
       <div class="card-header">Login</div>
       <div class="card-body">
-        <form method="post">
+        <form action="check_login.php" method="post">
           <div class="form-group">
             <label for="username">Username</label>
-            <input class="form-control" name="txtUser" id="username" type="test"  placeholder="Username" required autofocus>
+            <input class="form-control" name="txtUsername" id="username"
+                   type="text"  placeholder="Username" required autofocus>
           </div>
           <div class="form-group">
             <label for="password">Password</label>
-            <input class="form-control" name="txtPass" id="password"  type="password" placeholder="Password">
+            <input class="form-control" name="txtPassword" id="password"
+                   type="password" placeholder="Password">
           </div>
-          <button class="btn btn-lg btn-primary btn-block" type="submit" name="btnLogin">Sign in</button>
+            <input class="btn btn-primary btn-block" type="submit" value="Login">
         </form>
-        <div class="text-center">
-        </div>
       </div>
     </div>
   </div>
   <br>
-  <div class="card card-login mx-auto mt-5">
-
-</div>
 </div>
 <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -49,3 +52,9 @@
 
 </html>
 
+    <?php
+}
+else{
+    header('Location: index.php');
+}
+?>
