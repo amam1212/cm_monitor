@@ -8,7 +8,7 @@
         }
         th, td {
             padding: 5px;
-            text-align: left;
+            text-align: left
         }
     </style>
 </head>
