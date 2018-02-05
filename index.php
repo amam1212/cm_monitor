@@ -329,10 +329,7 @@
     }
 
 
-
     function getCarlocation(type) {
-
-
         $.getJSON("CM_CAR/API", function(jsonBus1) {
             clearMarkCar();
             carMark = [];
@@ -362,7 +359,59 @@
                     info = new google.maps.InfoWindow();
                     google.maps.event.addListener(markBusB1, 'click', (function (markBusB1, i) {
                         return function () {
-                            info.setContent('<div id="content"><h5>' + carB1.Registerid + '</h5></div><br>' + carB1.Type);
+                            if(carB1.StatusLogInOut == 'I'){
+                                carB1.StatusLogInOut = 'Login';
+                            }
+                            else{
+                                carB1.StatusLogInOut = 'Logout';
+                            }
+
+                            if(carB1.CM_Engine == 1){
+                                carB1.CM_Engine = 'ปกติ';
+                            }
+                            else{
+                                carB1.CM_Engine = 'ดับเครื่องยนต์';
+                            }
+
+                            if(carB1.CM_Battery == 1){
+                                carB1.CM_Battery = 'ปกติ';
+                            }
+                            else{
+                                carB1.CM_Battery = 'ไม่ปกติ';
+                            }
+
+                            if(carB1.SignalFall == 0){
+                                carB1.SignalFall = 'สัญญาณปกติ ข้อมูลถูกต้อง';
+                            }
+                            else if(carB1.SignalFall == 1){
+                                carB1.SignalFall = 'สัญญาณขาดหาย';
+                            }
+
+                            else if(carB1.SignalFall == 2){
+                                carB1.SignalFall = 'ตำแหน่งคลาดเคลื่อน';
+                            }
+                            else if(carB1.SignalFall == 3){
+                                carB1.SignalFall = 'เฝ้าระวัง';
+                            }
+                            else if(carB1.SignalFall == 'F'){
+                                carB1.SignalFall = 'สัญญาณขาดหายเกิน 12 ชั่วโมง';
+                            }
+
+                            info.setContent('' +
+                                '<div id="content">' +
+                                '<h2 style="color: blue">' + carB1.Registerid + '</h2>' +
+                                '</div> <hr> ข้อมูลล่าสุด:' + carB1.Date +'<=>' + carB1.Time +'<br>' +
+                                'ข้อมูลผู้ขับ: '+ carB1.DriverName + ' สถานะ: '+ carB1.StatusLogInOut + '<br> <hr>'+
+                                'เครื่องยนต์: '+ carB1.CM_Engine + '<br>'+
+                                'แบตเตอร์รี่: '+ carB1.CM_Battery + '<br>'+
+                                'น้ำมัน: '+ carB1.Fuel + '<br>'+
+                                'อุณหภูมิ: '+ '' + '<br>'+
+                                'เซ็นเซอร์ฝุ่นละออง: '+ carB1.SensorPM + '<br> <hr>'+
+                                'GSM: '+ '' + '<br>'+
+                                'GPS: '+ '' + '<br>'+
+                                'สถานะ: '+ carB1.SignalFall + '<br> <hr>'+
+                                'ตำแหน่ง: '+ '' + '<br>'+
+                                'พิกัด: ('+ carB1.LaGoogle +','+ carB1.LongGoogle +')<br> <hr>'+ carB1.Type);
                             info.open(map, markBusB1);
                         }
                     })(markBusB1, i));
@@ -392,7 +441,59 @@
                     info = new google.maps.InfoWindow();
                     google.maps.event.addListener(markBusB1, 'click', (function (markBusB1, i) {
                         return function () {
-                            info.setContent('<div id="content"><h5>' + carB1.Registerid + '</h5></div><br>' + carB1.Type);
+                            if(carB1.StatusLogInOut == 'I'){
+                                carB1.StatusLogInOut = 'Login';
+                            }
+                            else{
+                                carB1.StatusLogInOut = 'Logout';
+                            }
+
+                            if(carB1.CM_Engine == 1){
+                                carB1.CM_Engine = 'ปกติ';
+                            }
+                            else{
+                                carB1.CM_Engine = 'ดับเครื่องยนต์';
+                            }
+
+                            if(carB1.CM_Battery == 1){
+                                carB1.CM_Battery = 'ปกติ';
+                            }
+                            else{
+                                carB1.CM_Battery = 'ไม่ปกติ';
+                            }
+
+                            if(carB1.SignalFall == 0){
+                                carB1.SignalFall = 'สัญญาณปกติ ข้อมูลถูกต้อง';
+                            }
+                            else if(carB1.SignalFall == 1){
+                                carB1.SignalFall = 'สัญญาณขาดหาย';
+                            }
+
+                            else if(carB1.SignalFall == 2){
+                                carB1.SignalFall = 'ตำแหน่งคลาดเคลื่อน';
+                            }
+                            else if(carB1.SignalFall == 3){
+                                carB1.SignalFall = 'เฝ้าระวัง';
+                            }
+                            else if(carB1.SignalFall == 'F'){
+                                carB1.SignalFall = 'สัญญาณขาดหายเกิน 12 ชั่วโมง';
+                            }
+
+                            info.setContent('' +
+                                '<div id="content">' +
+                                '<h2 style="color: blue">' + carB1.Registerid + '</h2>' +
+                                '</div> <hr> ข้อมูลล่าสุด:' + carB1.Date +'<=>' + carB1.Time +'<br>' +
+                                'ข้อมูลผู้ขับ: '+ carB1.DriverName + ' สถานะ: '+ carB1.StatusLogInOut + '<br> <hr>'+
+                                'เครื่องยนต์: '+ carB1.CM_Engine + '<br>'+
+                                'แบตเตอร์รี่: '+ carB1.CM_Battery + '<br>'+
+                                'น้ำมัน: '+ carB1.Fuel + '<br>'+
+                                'อุณหภูมิ: '+ '' + '<br>'+
+                                'เซ็นเซอร์ฝุ่นละออง: '+ carB1.SensorPM + '<br> <hr>'+
+                                'GSM: '+ '' + '<br>'+
+                                'GPS: '+ '' + '<br>'+
+                                'สถานะ: '+ carB1.SignalFall + '<br> <hr>'+
+                                'ตำแหน่ง: '+ '' + '<br>'+
+                                'พิกัด: ('+ carB1.LaGoogle +','+ carB1.LongGoogle +')<br> <hr>'+ carB1.Type);
                             info.open(map, markBusB1);
                         }
                     })(markBusB1, i));

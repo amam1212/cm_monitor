@@ -24,14 +24,14 @@
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top" data-gr-c-s-loaded="true">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <a class="navbar-brand" href="index.php">ศูนย์ควบคุมระบบการเดินรถแบบอัจฉริยะแห่งจังหวัดเชียงใหม่</a>
+    <a class="navbar-brand" href="/cm_monitor/index.php">ศูนย์ควบคุมระบบการเดินรถแบบอัจฉริยะแห่งจังหวัดเชียงใหม่</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="" data-original-title="สัญญาณหาย">
-                <a class="nav-link" href="index.php">
+                <a class="nav-link" href="/cm_monitor/index.php">
                     <i class="fa fa-fw fa-table"></i>
                     <span class="nav-link-text">รถโดยสารประจำทาง</span>
                 </a>
@@ -112,7 +112,7 @@
                         <th>Province</th>
                     </tr>
                     </thead>
-                    <tbody>
+
                     <?php
                     $url = 'http://183.90.168.61/cmcar/';
                     $content = file_get_contents($url);
@@ -120,7 +120,9 @@
                     $no = 1;
                     foreach($json as $i)
                     {
-                        ?>
+                    ?>
+                    <tbody>
+
                         <tr>
                             <td> <?=$no?></td>
                             <td><?=$i['Date']?></td>
@@ -162,11 +164,13 @@
                             <td><?=$i['Detail2']?></td>
                             <td><?=$i['Provice']?></td>
                         </tr>
+
+                    </tbody>
+
                         <?php
-                        $no++;
+                    $no++;
                     }
                     ?>
-                    </tbody>
                 </table>
             </div>
         </div>
