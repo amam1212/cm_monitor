@@ -4,3 +4,4 @@ $content = file_get_contents($url);
 $json = json_decode($content, true);
 
 echo json_encode($json);
+
